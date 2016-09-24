@@ -13,6 +13,6 @@ casual.define('user', function() {
     };
 });
 
-// Write the result to the concole
+// Write the result to the console
 
 console.log(casual.user);

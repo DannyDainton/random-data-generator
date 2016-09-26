@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "casual": "^1.5.5"
+    "casual": "^1.5.5",
+    "jsonfile": "^2.4.0"
   }
 }

@@ -15,3 +15,7 @@ From a command window type the following:
 `node user.js` This will console log the user data that includes a First Name, Last Name and a Password.
 
 `node user.js` This will create a Json file that can be used within the Bug Magnet Chrome Extension.
+
+#### Bug Magnet
+
+https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi?hl=en

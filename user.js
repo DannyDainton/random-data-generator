@@ -1,22 +1,18 @@
 // Dependencies 
 var casual = require('casual');
-var jsonfile = require('jsonfile')
- 
-var file = 'user.json'
-jsonfile.spaces = 4
 
 // Custom Data Set
+
+var password = '#A#B#C#D#E#F#';
 
 casual.define('user', function() {
     return {
         Firstname: casual.first_name,
         Lastname: casual.last_name,
-        Password: casual.password
+        Password: casual.numerify(password)
     };
 });
 
-// Write the result to a json file
+// Write the result to the console
 
-jsonfile.writeFile(file, casual.user, function (err) {
-  console.error(err)
-});
+console.log(casual.user);

@@ -10,11 +10,25 @@ From a command window type the following:
 #### Getting the random data
 From a command window type the following:
 
-`node data.js` This will console log the random data specified in the file.
+`node data.js` 
 
-`node user.js` This will console log the user data that includes a First Name, Last Name and a Password.
+This will console log the random data specified in the file.
 
-`node user.js` This will create a Json file that can be used within the Bug Magnet Chrome Extension.
+`node user.js` 
+
+This will console log the user data that includes a First Name, Last Name and a Password.
+
+`node user.js` 
+
+This will create a Json file that can be used within the Bug Magnet Chrome Extension.
+
+#### Links
+
+These are the blog posts that relate to the application. All the useage instructions can be found here.
+
+https://dannydainton.com/2016/09/23/creating-random-data-on-my-lunch-break/
+
+https://dannydainton.com/2016/09/28/everyone-loves-a-bit-of-bug-magnet/
 
 #### Bug Magnet
 

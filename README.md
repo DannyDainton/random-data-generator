@@ -18,13 +18,13 @@ This will console log the random data specified in the file.
 
 This will console log the user data that includes a First Name, Last Name and a Password.
 
-`node user.js` 
+`node cardDetails.js` 
 
-This will create a Json file that can be used within the Bug Magnet Chrome Extension.
+This will create a JSON file with random payment card details that can be used within the Bug Magnet Chrome Extension.
 
 #### Links
 
-These are the blog posts that relate to the application. All the useage instructions can be found here.
+These are the blog posts that relate to the application. All the setup instructions and walkthroughs can be found here.
 
 https://dannydainton.com/2016/09/23/creating-random-data-on-my-lunch-break/
 

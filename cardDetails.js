@@ -1,7 +1,7 @@
 // Dependencies
 
 var casual   = require('casual');
-var jsonfile = require('jsonfile')
+var jsonfile = require('jsonfile');
  
 var file = 'cardDetails.json'
 jsonfile.spaces = 4

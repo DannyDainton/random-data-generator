@@ -1,18 +1,18 @@
 // Dependencies 
-var casual = require('casual');
+const casual = require('casual')
 
 // Custom Data Set
 
-var password = '#A#B#C#D#E#F#';
+const password = '#A#B#C#D#E#F#'
 
-casual.define('user', function() {
+casual.define('user', () => {
     return {
         Firstname: casual.first_name,
         Lastname: casual.last_name,
         Password: casual.numerify(password)
-    };
-});
+    }
+})
 
 // Write the result to the console
 
-console.log(casual.user);
+console.log(casual.user)
